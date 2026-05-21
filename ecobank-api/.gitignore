@@ -10,6 +10,18 @@
 /ecobank-api/public/build
 /ecobank-api/public/hot
 
+/ecobank-api/.env
+.env
+.env.*
+!.env.example
+
+/ecobank-api/.env
+/ecobank-api/.env.*
+!/ecobank-api/.env.example
+
+/vendor
+/node_modules
+
 # Storage / cache / logs
 /ecobank-api/public/storage
 /ecobank-api/storage/*.key
